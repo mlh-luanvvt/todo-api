@@ -15,6 +15,7 @@ export default class MyStack extends sst.Stack {
     // Create the HTTP API
     const api = new sst.Api(this, "Api", {
       defaultFunctionProps: {
+        timeout: 30,
         environment: {
           todosTable: todosTable.dynamodbTable.tableName,
         }

@@ -1,0 +1,20 @@
+{
+  "type": "node",
+  "request": "launch",
+  "name": "Launch via NPM",
+  "runtimeExecutable": "npm",
+  "runtimeArgs": ["start"],
+  "port": 9229,
+  "skipFiles": [
+    "<node_internals>/**"
+  ],
+  "configurations": [
+    {
+      "command": "npm start",
+      "name": "Run npm start",
+      "request": "launch",
+      "type": "node-terminal"
+    }
+
+  ]
+}
