@@ -1,0 +1,30 @@
+// Create todo
+POST https://gse7egmkn6.execute-api.ap-northeast-1.amazonaws.com/todos
+content-type: application/json
+
+{
+  "content": "Hello",
+  "done": false
+}
+
+###
+// Get todo list
+https://gse7egmkn6.execute-api.ap-northeast-1.amazonaws.com/todos
+
+###
+// Get todo
+https://gse7egmkn6.execute-api.ap-northeast-1.amazonaws.com/todos/sktwi1gqpkn7584zs
+
+###
+// Update todo
+PUT https://gse7egmkn6.execute-api.ap-northeast-1.amazonaws.com/todos/sktwi1gqpkn7584zs
+content-type: application/json
+
+{
+  "content": "Monstarlab VN",
+  "done": false
+}
+
+###
+// Delete todo
+DELETE https://gse7egmkn6.execute-api.ap-northeast-1.amazonaws.com/todos/sktwi1krzkn77e5e6

@@ -11,11 +11,13 @@
   },
   "devDependencies": {
     "@aws-cdk/assert": "1.94.1",
-    "@types/aws-lambda": "^8.10.70"
+    "@types/aws-lambda": "^8.10.70",
+    "@types/uniqid": "^5.3.0"
   },
   "dependencies": {
+    "@aws-cdk/core": "1.94.1",
     "@serverless-stack/cli": "0.10.8",
     "@serverless-stack/resources": "0.10.8",
-    "@aws-cdk/core": "1.94.1"
+    "uniqid": "^5.3.0"
   }
 }
